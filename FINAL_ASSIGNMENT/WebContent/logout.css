@@ -1,0 +1,22 @@
+@charset "ISO-8859-1";
+img{
+display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 9px solid #ffffff;
+}
+body{
+			font-family: "comic sans ms", sans serif;
+			color:white;
+			background-color: black;
+			margin: 0;
+			text-align:center;
+			
+		}
+h1{
+			background-color: forestgreen;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}

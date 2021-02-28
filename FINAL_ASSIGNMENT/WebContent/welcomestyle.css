@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+img{
+display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: 9px solid #ffffff;
+}
+h1,h3{
+color:blue;
+}
+body{
+background-color:grey;
+}
+#id1{
+color:brown;
+font-style:italic;
+}
+#id2{
+color:brown;
+font-style:italic;
+text-decoration:underlined;
+}
+a:link{
+color:brown;
+}
+
+a:visited{
+color:green;
+}
+body{
+			font-family: "comic sans ms", sans serif;
+			color:white;
+			background-color: black;
+			margin: 0;
+			text-align:center;
+			
+		}
+		
+		h1{
+			background-color: forestgreen;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+		
+		h5{
+			background-color: lightgreen;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+		table{
+		text-align: center;
+		}
+		
+		td{
+			padding: 7px;
+		}
+		input{
+			height: 30px;
+			border-radius: 10px;
+			border: none;
+			background-color: lightgrey;
+			
+		}
+		
+		input:focus{
+			outline: none;
+			border: 1px solid forestgreen;
+		}
+		input:hover{
+			box-shadow: 5px 5px 5px black;
+		}
+		
+		.button{
+			background-color: forestgreen;
+			color:#fff;
+			border: none;
+			padding: 7px
+		}
+		
+		.button:hover {
+			cursor: pointer;
+			box-shadow: 5px 5px 5px red;
+		}
+		
+

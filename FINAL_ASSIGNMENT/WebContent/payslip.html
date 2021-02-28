@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee details</title>
+<style>
+		body{
+			font-family: "comic sans ms", sans serif;
+			color:white;
+			background-color: forestgreen;
+			margin: 0;
+			text-align:center;
+			
+		}
+		
+		input{
+			height: 30px;
+			border-radius: 10px;
+			border: none;
+			background-color: lightgrey;
+			
+		}
+		
+		input:focus{
+			outline: none;
+			border: 1px solid forestgreen;
+		}
+		input:hover{
+			box-shadow: 5px 5px 5px black;
+		}
+		
+		.button{
+			background-color: forestgreen;
+			color:#fff;
+			border: none;
+			padding: 7px
+		}
+		
+		.button:hover {
+			cursor: pointer;
+			box-shadow: 5px 5px 5px red;
+		}
+</style>
+
+</head>
+<body>
+<form action="./payslip">
+<table>
+
+   <tr>
+      <td>Enter your salary:</td>
+      <td><input type="number" id="salary" name="salary"></td>
+   </tr>
+   <tr>
+   <td colspan="2"><input type="submit" value="submit"></td>
+   </tr>
+</table>
+</form>
+
+</body>
+</html>
